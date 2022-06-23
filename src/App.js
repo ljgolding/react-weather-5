@@ -2,10 +2,12 @@ import React from "react";
 import './App.css';
 
 function App() {
-  return 
+  return (
     <div className="App">
       Weather App
-    </div>;
+    This project was coded by Lindsay Golding and is {" "} <a href="https://github.com/ljgolding/react-weather-5" target="_blank">open-sourced on Github</a>
+
+    </div>);
 
 }
 
