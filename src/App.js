@@ -1,12 +1,15 @@
 import React from "react";
-import './App.css';
+import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        
-      Weather App This project was coded by Lindsay Golding and is{" "}
+        <h1>Weather App </h1> 
+        <Weather />
+      <footer>
+        This project was coded by Lindsay Golding and is{" "}
       <a
         href="https://github.com/ljgolding/react-weather-5"
         target="_blank"
@@ -14,9 +17,11 @@ function App() {
       >
         open-sourced on Github
       </a>
-    </div></div>
+      </footer>
+    </div>
+    </div>
   );
 
 }
 
-export default App;
+
