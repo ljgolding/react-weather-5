@@ -3,6 +3,5 @@ import "./Weather.css";
 
 
 export default function Weather(){
-    return
-    <div className="Weather">Hi</div>;
+    return <div className="Weather">Hi</div>;
 }
