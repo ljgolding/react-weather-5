@@ -13,13 +13,13 @@ export default function Weather(props){
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
-      humidity:response.data.main.humidity,
+      humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
-      city: response.data.name, 
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png",
-      description:response.data.weather[0].description,
-      date: new Date(response.data.dt *1000),
-  });
+      city: response.data.name,
+      icon: response.data.weather[0].icon,
+      description: response.data.weather[0].description,
+      date: new Date(response.data.dt * 1000),
+    });
 
   }
 
