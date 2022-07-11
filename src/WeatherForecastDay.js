@@ -29,7 +29,7 @@ return (
       <span className="WeatherForecast-temperatures-max">
         {maxTemperature()}C
       </span>
-      <span clasName="WeatherForecast-temperatures-min">
+      <span className="WeatherForecast-temperatures-min">
         {minTemperature()}C
       </span>
     </div>
